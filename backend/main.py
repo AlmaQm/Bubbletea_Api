@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from dotenv import load_dotenv
-from routes.bubbletea import router as bubbletea_router
+from backend.routes.bubbletea import router as bubbletea_router
 
 
 app = FastAPI()

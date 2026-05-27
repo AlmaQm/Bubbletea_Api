@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from typing import Any
 import pymysql
-from utils.db_conection import get_connection
+from backend.utils.db_conection import get_connection
 conn = get_connection()
 
 router = APIRouter()
